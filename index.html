@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>  
+    <header>Weather Dashboard</header>
+
+    <section id="searchBarSection">
+        <div>Search for a City: </div>
+        <form id="form">
+            <input type="search" id="searchBar" placeholder="San Diego">
+            <button id="searchButton">Search</button>
+        </form>
+    </section>
+
+    <section id="currentWeatherDisplay" style="display: none;">
+        <div id="title"></div>
+        <img id="currentWeatherIcon" src=""  alt="Weather Icon">
+        <div id="currentTemp"></div>
+        <div id="currentWind"></div>
+        <div id="currentHumidity"></div>
+    </section>
+
+    <section id="fiveDayReport" style="display: none;">
+        <card id="firstDay">
+            <div id="reportTitle1"></div>
+            <img id="WeatherIcon1" src=""  alt="Weather Icon">
+            <div id="temp1"></div>
+            <div id="wind1"></div>
+            <div id="humidity1"></div>
+        </card>
+        <card id="secondDay">
+            <div id="reportTitle2"></div>
+            <img id="WeatherIcon2" src=""  alt="Weather Icon">
+            <div id="temp2"></div>
+            <div id="wind2"></div>
+            <div id="humidity2"></div>
+        </card>
+        <card id="thirdDay">
+            <div id="reportTitle3"></div>
+            <img id="WeatherIcon3" src=""  alt="Weather Icon">
+            <div id="temp3"></div>
+            <div id="wind3"></div>
+            <div id="humidity3"></div>
+        </card>
+        <card id="fourthDay">
+            <div id="reportTitle4"></div>
+            <img id="WeatherIcon4" src=""  alt="Weather Icon">
+            <div id="temp4"></div>
+            <div id="wind4"></div>
+            <div id="humidity4"></div>
+        </card>
+        <card id="fifthDay">
+            <div id="reportTitle5"></div>
+            <img id="WeatherIcon5" src=""  alt="Weather Icon">
+            <div id="temp5"></div>
+            <div id="wind5"></div>
+            <div id="humidity5"></div>
+        </card>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>

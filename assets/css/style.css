@@ -1,0 +1,73 @@
+header {
+    margin: 1%;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-size: 400%;
+}
+
+#searchBarSection {
+    position: absolute;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+#searchBar {
+    margin-top: 1%;
+}
+
+#currentWeatherDisplay {
+    position: absolute;
+    margin-left: 350px;
+    border: 2px solid black;
+    padding: 15px;
+    padding-right: 550px;
+}
+
+#title {
+    font-size: 40px;
+    padding-left: 550px;
+}
+
+#currentWeatherIcon {
+    padding-left: 650px;
+}
+
+#currentTemp, #currentWind, #currentHumidity {
+    padding-left: 650px;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+
+#firstDay {
+    position: absolute;
+    padding-top: 300px;
+    padding-left: 500px ;
+}
+
+#secondDay {
+    position: absolute;
+    padding-top: 300px;
+    padding-left: 775px ;
+}
+
+#thirdDay {
+    position: absolute;
+    padding-top: 300px;
+    padding-left: 1050px ;
+}
+
+#fourthDay {
+    position: absolute;
+    padding-top: 300px;
+    padding-left: 1325px ;
+}
+
+#fifthDay {
+    position: absolute;
+    padding-top: 300px;
+    padding-left: 1600px ;
+}
